@@ -12,15 +12,15 @@
       if (file) {
         /*make an HTTP request using the attribute value as the file name:*/
         xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
+        xhttp.onreadystatechange = function () {
           if (this.readyState == 4) {
-            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+            if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
             /*remove the attribute, and call this function once more:*/
             elmnt.removeAttribute("w3-include-html");
             includeHTML();
           }
-        }      
+        }
         xhttp.open("GET", file, true);
         xhttp.send();
         /*exit the function:*/
@@ -29,8 +29,8 @@
     }
   };
 
-  
-  </script>
+
+</script>
 
 
 
@@ -47,7 +47,7 @@
 
 
 <body>
-  
+
   <div w3-include-html="navbar.html"></div>
 
 
@@ -55,70 +55,82 @@
     <div class="title">
       <h4>FRANK MBADIWE</h4>
       <h3>DESIGNER</h3>
-      <h1>I'm an experienced brand and UI designer, 
+      <h1>I'm an experienced brand and UI designer,
         <br>passionate about creating impactful visual
-        <br>identities and user-friendly interfaces..</h1>
+        <br>identities and user-friendly interfaces..
+      </h1>
     </div>
 
-<div class="show">
+    <div class="show">
 
 
-  <div class="s1" style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Book/thumbnail.jpg?updatedAt=1743082359220')">
-    <div class="s1t">
-      <h3><a href="tower.html">The Tower - Book Cover</a></h3>
-      <p>I wanted this design to feel unsettling yet intriguing, like a story that pulls you in before you even read the first page...</p>
+      <div class="s1"
+        style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Book/thumbnail.jpg?updatedAt=1743082359220')">
+        <div class="s1t">
+          <h3><a href="tower.html">The Tower - Book Cover</a></h3>
+          <p>I wanted this design to feel unsettling yet intriguing, like a story that pulls you in before you even read
+            the first page...</p>
+        </div>
+      </div>
+
+
+
+
+      <div class="s1"
+        style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Mad%20Que%20BBQ/Mad%20Que-01.jpg?updatedAt=1742433690631')">
+        <div class="s1t">
+          <h3><a href="mad-que-bbq.html">Mad Que BBQ</a></h3>
+          <p>The MadQue BBQ logo combines bold, fiery energy with a refined, professional edge, designed to represent
+            both a
+            competitive BBQ team and a catering brand. Inspired by modern, fire-themed aesthetics (without pig imagery),
+            the mark
+            strikes a balance between intensity and approachability</p>
+        </div>
+      </div>
+
+
+      <div class="s1"
+        style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Thumbnail?updatedAt=1742430797869')">
+        <div class="s1t">
+          <h3><a href="keelan.html">Keelan Travel And Tours</a></h3>
+          <p>A modern and professional logo and brand identity for Keelan Travel and Tours,
+            a travel agency aimed at providing reliable and memorable travel experiences.</p>
+        </div>
+      </div>
+
+
+      <div class="s1"
+        style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Green%20Logistics/Green-01.jpg?updatedAt=1742437444312')">
+        <div class="s1t">
+          <h3><a href="Green.html">Green Logistics</a></h3>
+          <p>Green Logistics Is a delivery company that believes in protecting the environment.
+            while satisfying customers with fast and secure delivery.</p>
+        </div>
+      </div>
+
+
+
+      <div class="s1"
+        style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Anwu-anwu/Anwu-Anwu.jpg?updatedAt=1742477644039')">
+        <div class="s1t">
+          <h3><a href="Anwu.html">Anwu-Anwu Cover Art</a></h3>
+          <p>Misic cover art Design for an artist(Elsaint)</p>
+        </div>
+      </div>
+
+
+      <div class="s1"
+        style="background-image: url('https://ik.imagekit.io/lyxudnnoi/banners-01.jpg?updatedAt=1743095754981')">
+        <div class="s1t">
+          <h3><a href="banner.html">Social Media Banners</a></h3>
+          <p>A collection of marketing materials and flyers, where design meets strategy.</p>
+        </div>
+      </div>
+
     </div>
-  </div>
 
 
 
-
-  <div class="s1" style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Mad%20Que%20BBQ/Mad%20Que-01.jpg?updatedAt=1742433690631')">
-    <div class="s1t">
-      <h3><a href="mad-que-bbq.html">Mad Que BBQ</a></h3>
-      <p>Brief Logo Description</p>
-    </div>
-  </div>
-
-
-  <div class="s1" style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Thumbnail?updatedAt=1742430797869')">
-    <div class="s1t">
-      <h3><a href="keelan.html">Keelan Travel And Tours</a></h3>
-      <p>A modern and professional logo and brand identity for Keelan Travel and Tours, 
-        a travel agency aimed at providing reliable and memorable travel experiences.</p>
-    </div>
-  </div>
-
-
-  <div class="s1" style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Green%20Logistics/Green-01.jpg?updatedAt=1742437444312')">
-    <div class="s1t">
-      <h3><a href="Green.html">Green Logistics</a></h3>
-      <p>Green Logistics Is a delivery company that believes in protecting the environment. 
-        while satisfying customers with fast and secure delivery.</p>
-    </div>
-  </div>
-
-
-
-  <div class="s1" style="background-image: url('https://ik.imagekit.io/lyxudnnoi/Anwu-anwu/Anwu-Anwu.jpg?updatedAt=1742477644039')">
-    <div class="s1t">
-      <h3><a href="Anwu.html">Anwu-Anwu Cover Art</a></h3>
-      <p>Misic cover art Design for an artist(Elsaint)</p>
-    </div>
-  </div>
-
-
-  <div class="s1" style="background-image: url('https://ik.imagekit.io/lyxudnnoi/banners-01.jpg?updatedAt=1743095754981')">
-    <div class="s1t">
-      <h3><a href="banner.html">Social Media Banners</a></h3>
-      <p>A collection of marketing materials and flyers, where design meets strategy.</p>
-    </div>
-  </div>
-
-</div>
-
-
-    
   </main>
 
 
@@ -126,15 +138,15 @@
 
   <div w3-include-html="footer.html"></div>
 
-<footer>
-  &copy; 2025 By Frank Mbadiwe with Css Grid
-</footer>
+  <footer>
+    &copy; 2025 By Frank Mbadiwe with Css Grid
+  </footer>
 
-<script>
-  includeHTML();
+  <script>
+    includeHTML();
   </script>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
