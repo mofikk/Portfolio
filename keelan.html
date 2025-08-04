@@ -12,15 +12,15 @@
       if (file) {
         /*make an HTTP request using the attribute value as the file name:*/
         xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
+        xhttp.onreadystatechange = function () {
           if (this.readyState == 4) {
-            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+            if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
             /*remove the attribute, and call this function once more:*/
             elmnt.removeAttribute("w3-include-html");
             includeHTML();
           }
-        }      
+        }
         xhttp.open("GET", file, true);
         xhttp.send();
         /*exit the function:*/
@@ -29,8 +29,8 @@
     }
   };
 
-  
-  </script>
+
+</script>
 
 
 <head>
@@ -41,71 +41,107 @@
   <link rel="stylesheet" href="styles.css">
   <title>My Portfolio</title>
 </head>
+
 <body>
-  
+
   <div w3-include-html="navbar.html"></div>
 
-  
+
   <main>
 
-<div class="big_image">
+    <div class="big_image">
 
-    <img src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-02.jpg?updatedAt=1742430756186" alt="">
-
-</div>
-
-<div class="lddetails">
-
-    <div class="right">
-
-      <p>2024</p>
-      <p>KEELAN TRAVEL AND TOURS</p>
-      <h3>This item is connected to a text field in your content collection.
-          Double click to add your own content. Click the Content Manager icon on the add panel to your left.</h3>
-
-      <div class="line"></div>
-      
-            
-              
+      <img src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-02.jpg?updatedAt=1742430756186" alt="">
 
     </div>
-          
 
-</div>
+    <div class="lddetails">
+
+      <div class="right">
+
+        <p>2024</p>
+        <p>KEELAN TRAVEL AND TOURS</p>
+        <h3>Keelan Travel and Tours needed a fresh, modern identity that captured the spirit of adventure while
+          communicating trust
+          and professionalism. From the moment I received the brief, the vision was immediate. It’s one of those rare
+          projects
+          where the idea formed almost instantly—if there were a record for my fastest concept development, this would
+          probably
+          hold the title.
+
+          The design revolves around a bold, clean wordmark that makes the brand name easily recognizable. I introduced
+          a curved,
+          upward swoosh extending from the letter “K” to evoke a sense of motion, progress, and forward-thinking
+          energy—key themes
+          in the travel industry. To make the logo stand out, I replaced the standard aircraft icon with a paper plane,
+          giving it
+          a unique and friendly personality without losing its connection to travel.
+
+          Color played an important role too. I paired a deep navy blue to anchor the brand in professionalism and
+          reliability,
+          with a vibrant orange that adds warmth, excitement, and energy. Together, the two create a balanced visual
+          identity that
+          feels both premium and inviting. For typography, I chose Merge Bold for its strength and legibility, while
+          Aileron
+          supports the brand across applications like ads and business cards.
+
+          What makes this project memorable for me is how naturally everything came together—from the font selection to
+          the final
+          layout. It’s a clean, scalable design that works across digital and print, perfectly aligned with the spirit
+          of
+          exploration that defines Keelan Travel and Tours.</h3>
+
+        <div class="line"></div>
 
 
 
 
-<div class="gallery">
+      </div>
 
-  
 
-  <img class="g1" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-03.jpg?updatedAt=1742430752845" alt="Keelan logo">
-  <img class="g2" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-04.jpg?updatedAt=1742430753000" alt="Keelan logo">
-  <img class="g3" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-07.jpg?updatedAt=1742430754494" alt="">
-  <img class="g4" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-11.jpg?updatedAt=1742430753718" alt="">
-  <img class="g5" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-05.jpg?updatedAt=1742430753365" alt="">
-  <img class="g6" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-08.jpg?updatedAt=1742430753551" alt="">
-  <img class="g7" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Thumbnail?updatedAt=1742430797869" alt="">
-  <img class="g8" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-10.jpg?updatedAt=1742430756053" alt="">
-  <img class="g9" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-12.jpg?updatedAt=1742430758003" alt="">
+    </div>
 
 
 
 
-</div>
-
-
-<div class="pagination">
-
-    <a href="mad-que-bbq.html" class="previous">PREVIOUS</a>
-    <a href="Green.html" class="next">NEXT</a>
-
-</div>
+    <div class="gallery">
 
 
 
-</div>
+      <img class="g1" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-03.jpg?updatedAt=1742430752845"
+        alt="Keelan logo">
+      <img class="g2" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-04.jpg?updatedAt=1742430753000"
+        alt="Keelan logo">
+      <img class="g3" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-07.jpg?updatedAt=1742430754494"
+        alt="">
+      <img class="g4" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-11.jpg?updatedAt=1742430753718"
+        alt="">
+      <img class="g5" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-05.jpg?updatedAt=1742430753365"
+        alt="">
+      <img class="g6" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-08.jpg?updatedAt=1742430753551"
+        alt="">
+      <img class="g7" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Thumbnail?updatedAt=1742430797869" alt="">
+      <img class="g8" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-10.jpg?updatedAt=1742430756053"
+        alt="">
+      <img class="g9" src="https://ik.imagekit.io/lyxudnnoi/Kelan%20Travels/Kelan-12.jpg?updatedAt=1742430758003"
+        alt="">
+
+
+
+
+    </div>
+
+
+    <div class="pagination">
+
+      <a href="mad-que-bbq.html" class="previous">PREVIOUS</a>
+      <a href="Green.html" class="next">NEXT</a>
+
+    </div>
+
+
+
+    </div>
 
 
 
@@ -114,20 +150,19 @@
 
 
 
-  
+
   <div w3-include-html="footer.html"></div>
 
   <footer>
     &copy; 2025 By Frank Mbadiwe with Css Grid
   </footer>
-  
+
   <script>
     includeHTML();
-    </script>
-  
+  </script>
+
   <script src="script.js"></script>
-  
-  </body>
-  
-  </html>
-  
+
+</body>
+
+</html>
